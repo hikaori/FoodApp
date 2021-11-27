@@ -12,3 +12,5 @@
 7. inside client, install packages `npm install axios moment react-file-base64 redux redux-thunk`
 8. inside client, delete default src, create new src folder.
 9. inside client, create index.js and App.js
+10. connect database
+11. add routes
