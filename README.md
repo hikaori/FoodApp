@@ -12,5 +12,21 @@
 7. inside client, install packages `npm install axios moment react-file-base64 redux redux-thunk`
 8. inside client, delete default src, create new src folder.
 9. inside client, create index.js and App.js
-10. connect database
-11. add routes
+10. connect database.
+
+- to check `npm start`
+
+11. create routes folder and create a file posts.js which has all routes of posts.
+12. create controllers folder and create a file posts.js which has all method of routes.
+
+- to check `npm start`
+
+13. create modules folder and create a file export default postMessage.js which has schema of posts.
+
+14. modify posts.js inside controllers in order to getPosts and createPost.
+
+15. create UI, install package `npm install @material-ui/core`, create `components` folder inside `src` of client. inside `components` create `Form`,`Posts` files, and create `Post` files inside `Posts`,
+
+16. add UI components for `Form`, `Posts` and `Post`.
+
+17. create `api` folder, inside it , create `index.js` which has axios for `fetchPosts`
