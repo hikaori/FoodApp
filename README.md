@@ -30,3 +30,5 @@
 16. add UI components for `Form`, `Posts` and `Post`.
 
 17. create `api` folder, inside it , create `index.js` which has axios for `fetchPosts`
+
+18. create `actions` and `reducers`
