@@ -32,3 +32,9 @@
 17. create `api` folder, inside it , create `index.js` which has axios for `fetchPosts`
 
 18. create `actions` and `reducers`
+
+19. create `form`
+
+# step2
+
+20. add UI in posts and post
