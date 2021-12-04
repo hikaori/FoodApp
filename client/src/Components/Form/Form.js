@@ -26,14 +26,25 @@ const Form = ({ currentId, setCurrentId }) => {
   }, [post]);
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (currentId) {
-      dispatch(updatePost(currentId, postData));
-    } else {
+    if (currentId === 0) {
       dispatch(createPost(postData));
+    } else {
+      dispatch(updatePost(currentId, postData));
     }
+    clear();
   };
 
-  const clear = () => {};
+  const clear = () => {
+    setCurrentId(null);
+    setPostData({
+      creator: '',
+      title: '',
+      message: '',
+      tags: '',
+      selectedFile: '',
+    });
+  };
+
   return (
     <Paper className={classes.paper}>
       <form

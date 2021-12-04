@@ -45,5 +45,8 @@
 22. create `/:id` put.
 
 23. add feature when icon in post is clicked, show info in form.
+
     1. create useState for currentPost. pas it to post and form.
     2. create api, action, reducer.
+
+24. add feature clear the form.
