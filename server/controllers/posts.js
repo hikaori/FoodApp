@@ -20,3 +20,16 @@ export const createPost = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
+
+export const updatePost = async (req, res) => {
+  const { id: _id } = req.params;
+  const post = req.body;
+  if (!mongoose.Types.ObjectId.isValid(id))
+    return res.status(404).send(`No post with id: ${id}`);
+
+  const updatePost = await PostMessage.findByIdAndUpdate(_id, post, {
+    new: true,
+  });
+
+  res.json(updatePost);
+};
