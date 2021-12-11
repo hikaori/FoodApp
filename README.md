@@ -50,3 +50,5 @@
     2. create api, action, reducer.
 
 24. add feature clear the form.
+
+25. add feature delete post.
