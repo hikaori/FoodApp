@@ -60,3 +60,8 @@
 28. add space for like.
 
 29. handle mobile friendly.
+
+30. create action const.
+
+31. create .env
+    $npm i dotenv
