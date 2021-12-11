@@ -30,10 +30,19 @@ export const updatePost = (id, post) => async (dispatch) => {
 };
 
 export const deletePost = (id) => async (dispatch) => {
-  console.log('deletePost', id);
   try {
     await api.deletePost(id);
     dispatch({ type: 'DELETE', payload: id });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const likePost = (id) => async (dispatch) => {
+  console.log('likePost');
+  try {
+    await api.likePost(id);
+    dispatch({ type: 'LIKE', playload: id });
   } catch (error) {
     console.log(error);
   }
