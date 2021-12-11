@@ -54,3 +54,9 @@
 25. add feature delete post.
 
 26. add feature like post.
+
+27. add space for like.
+
+28. add space for like.
+
+29. handle mobile friendly.
