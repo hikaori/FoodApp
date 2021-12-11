@@ -24,7 +24,7 @@ const Form = ({ currentId, setCurrentId }) => {
   useEffect(() => {
     if (post) setPostData(post);
   }, [post]);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (currentId === 0) {
       dispatch(createPost(postData));
