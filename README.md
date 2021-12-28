@@ -66,10 +66,12 @@
 31. create .env
     $npm i dotenv
 
-# step3
+# step3 login
 
-login 32. install packages
-in client
-$ npm install jwt-decode react-google-login
-in server
-$ npm install bcryptjs jsonwebtoken
+32. install packages
+    in client
+    $ npm install jwt-decode react-google-login
+    in server
+    $ npm install bcryptjs jsonwebtoken
+
+33. create Navbar and Home component, implement react-router-dom
