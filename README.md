@@ -32,3 +32,36 @@
 17. create `api` folder, inside it , create `index.js` which has axios for `fetchPosts`
 
 18. create `actions` and `reducers`
+
+19. create `form`
+
+# step2
+
+20. add UI in posts and post
+
+21. add back ground.
+    https://www.svgbackgrounds.com/
+
+22. create `/:id` put.
+
+23. add feature when icon in post is clicked, show info in form.
+
+    1. create useState for currentPost. pas it to post and form.
+    2. create api, action, reducer.
+
+24. add feature clear the form.
+
+25. add feature delete post.
+
+26. add feature like post.
+
+27. add space for like.
+
+28. add space for like.
+
+29. handle mobile friendly.
+
+30. create action const.
+
+31. create .env
+    $npm i dotenv
