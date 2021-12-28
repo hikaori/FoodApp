@@ -65,3 +65,11 @@
 
 31. create .env
     $npm i dotenv
+
+# step3
+
+login 32. install packages
+in client
+$ npm install jwt-decode react-google-login
+in server
+$ npm install bcryptjs jsonwebtoken
