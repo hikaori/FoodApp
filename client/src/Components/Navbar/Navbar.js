@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
         ) : (
           <Button
-            conponent={Link}
+            component={Link}
             to="/auth"
             variant="contained"
             color="primary"

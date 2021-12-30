@@ -75,3 +75,5 @@
     $ npm install bcryptjs jsonwebtoken
 
 33. create Navbar and Home component, implement react-router-dom
+
+34. add Auth UI
